@@ -1,0 +1,239 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.main{
+}
+header{
+  height: 120px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0,0,0,0.07));
+  background-color: #e8ebf1;
+  border: 1px solid rgba(0,0,0,0.15);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.oblect0{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+.bis{
+  font-size: 50px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: 900;
+}
+.lite{
+  color: #81e4ed;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 20px;
+}
+.object2{
+
+}
+.menu{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.pod-menu{
+  list-style-type: none;
+}
+.link{
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+.button{
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button3{
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button1{
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 15px;
+  display: none;
+}
+.cofe-bcg{
+  width: 100%;
+  height: 500px;
+  background-color: #81e4ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cofe{
+  width: 1000px;
+  height: 440px;
+  background-color: #e05936;
+  background-image: url("img/cup.png"), url("img/q.png");
+  background-position: center, right;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.text{
+  width: 369px;
+  height: 242px;
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  display: inline-block;
+  margin-left: 55px;
+}
+.icon-text{
+  width: 100%;
+  height: 300px;
+  filter: drop-shadow(0px -2px 2.5px rgba(0,0,0,0.07));
+  background-color: #e8ebf1;
+  border: 1px solid rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-text-less{
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-icon{
+  width: 235px;
+  height: 200px;
+}
+.icons{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #2aacc8;
+  line-height: 40px;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  display: inline-block;
+  font-size: 15px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.flex-row{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+.icon-text a{
+  font-size: 13px;
+  line-height: 20px;
+  color: #2aacc8;;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+}
+.icon-text span{
+  font-size: 13px;
+  line-height: 20px;
+  color: #363636;
+  text-align: left;
+}
+.adventuge-pole{
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adventuge{
+  width: 1000px;
+  height: 140px;
+  background:  rgba(0, 255, 255, 0.2);
+  border: 1px solid rgb(0, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ad-text{
+  display: inline-block;
+  width: 613px;
+  height: 69px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #363636;
+}
+.ad-button{
+  width: 240px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  filter: drop-shadow(0px 2px 1.5px rgba(0,0,0,0.2));
+  background-image: linear-gradient(0deg, #29abc7 0%, #5fcddd 15%, #71d9e5 50%, #81e3ed 100%);
+  border: 1px solid #2aacc8;
+  color: #fff;
+  font-size: 25px;
+  padding: 0 36px;
+}
+.dv{
+  font-size: 18px;
+  line-height: 20px;
+  color: #0d0707;
+  font-weight: bold;
+}
+.end{
+  width: 100%;
+  height: 93px;
+  background-color: #e8ebf1;
+  border: 1px solid rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+}
+.end-mini{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-end{
+  width: 640px;
+  height: 35px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 18px;
+  color: #363636;
+}
+.button:hover{
+  background: #fff;
+  border-top: 6px solid #81e4ed;
+}
+.button3:hover{
+  background: #fff;
+  border-top: 6px solid #81e4ed;
+}
+
